@@ -1,0 +1,14 @@
+#!/bin/bash
+
+export CLASSPATH=.:../lib/junit-4.12.jar:../lib/hamcrest-all-1.3.jar
+
+echo "Compiling..."
+echo
+
+javac -d . ../src/DataException.java || exit 3
+javac -d . ../src/Measurement.java || exit 3
+javac -d . ../src/PollutionDataset.java || exit 3
+
+javac FullTests.java || exit 2
+
+java FullTests
