@@ -1,0 +1,44 @@
+[Song]
+{
+	Name = "Ziggy Stardust"
+	Artist = "David Bowie"
+	Year = ", 1972"
+	Player2 = Bass
+	ArtistText = "by"
+	Offset = 0
+	CountOff = "sticks_tiny"
+	GuitarVol = 0
+	BandVol = 0
+	HoPo = 0
+	OriginalArtist = false
+	Resolution = 480
+}
+[SyncTrack]
+{
+
+}
+[Events]
+{
+
+}
+[EasySingle]
+{
+
+}
+[MediumSingle]
+{
+
+}
+[HardSingle]
+{
+
+}
+[ExpertSingle]
+{
+
+1500 = N 0 0
+
+
+
+
+}
